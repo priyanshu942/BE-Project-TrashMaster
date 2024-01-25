@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ's"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:id="@+id/faq"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/faq"
+        android:text="Reward not recive ?"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:id="@+id/rev"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rev"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:text="- It will take 2-3 working days to recive reward"
+        android:textSize="15dp"
+        />
+
+
+
+
+</RelativeLayout>

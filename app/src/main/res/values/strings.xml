@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GarbageCollection</string>
+
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>User</item>
+        <item>Collector</item>
+
+    </string-array>
+
+
+    <string name="about_us">Report</string>
+    <string name="support">Support</string>
+    <string name="my_account">My Account</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="languages">Languages</string>
+    <string name="total_collections">Total Collections</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Support"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can contact us at:- 9123454344 "
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/num"/>
+    <TextView
+        android:layout_below="@+id/num"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can mail your complaint's at:-\ntrashsupport@gmail.com"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

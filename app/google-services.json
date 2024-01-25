@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1021125394415",
+    "firebase_url": "https://garbagecollection-381dc-default-rtdb.firebaseio.com",
+    "project_id": "garbagecollection-381dc",
+    "storage_bucket": "garbagecollection-381dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021125394415:android:86a7b91600a5d34c07401a",
+        "android_client_info": {
+          "package_name": "com.example.garbagecollection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt7YamjKcmkN0RWqTYXXO6AKaatSkv8u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
