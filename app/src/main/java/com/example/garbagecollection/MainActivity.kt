@@ -50,6 +50,8 @@ class MainActivity : AppCompatActivity() {
            startActivity(Intent(this,User_activity_1::class.java))
             //startActivity(Intent(this,Collector_activity_1::class.java))
         }
+
+
     }
 
     private fun loginuser(){

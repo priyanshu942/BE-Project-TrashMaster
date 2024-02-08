@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Support"
     android:background="@color/white">
 
@@ -10,20 +15,142 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="You can contact us at:- 9123454344 "
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp"
-        android:id="@+id/num"/>
-    <TextView
-        android:layout_below="@+id/num"
+        android:layout_height="100dp"
+        android:text="FAQ"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:textSize="70sp"
         android:textColor="@color/black"
-        android:layout_width="wrap_content"
+        android:id="@+id/faq"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="You can mail your complaint's at:-\ntrashsupport@gmail.com"
-        android:textSize="25dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_below="@+id/faq"
+        android:layout_margin="20dp"
+        android:id="@+id/Q1"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        app:cardBackgroundColor="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true"
+            android:id="@+id/L1"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Did not get your reward?"
+                android:textColor="@color/teal_200"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ans"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:text="It will take 2-5 working days to get reward If the also your reward did not get credited you can oce check the status of your transaction if then also it is not working please contact us."
+                android:textSize="18sp"
+                android:textColor="#0C3E39"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q1"
+        android:layout_margin="10dp"
+        android:id="@+id/Q2"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        android:background="@color/white"
+        app:cardBackgroundColor="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true"
+            android:id="@+id/L2"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/que2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your request is not completed?"
+                android:textColor="@color/teal_200"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It will take 1-2 days of time to complete a request. After the collector is assigned to you."
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textColor="#0C3E39"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q2"
+        android:layout_margin="10dp"
+        android:id="@+id/Q3"
+        android:foregroundGravity="center"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="20dp"
+        android:background="@color/white"
+        app:cardBackgroundColor="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true"
+            android:background="@color/white"
+            android:id="@+id/L3">
+            <TextView
+                android:id="@+id/que3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Have any other problem contact us at?"
+                android:textColor="@color/teal_200"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/ans3"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SupportTrashmaster@gmail.com"
+                android:autoLink="email"
+                android:textSize="18sp"
+                android:linksClickable="true"
+                android:textColorLink="@color/purple_500"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
 </RelativeLayout>
+</ScrollView>

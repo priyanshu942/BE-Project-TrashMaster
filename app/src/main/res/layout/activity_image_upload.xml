@@ -23,9 +23,32 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         android:text="Send"
+        android:id="@+id/snd"
         android:background="#009688"
         android:textColor="@color/white"
         android:padding="15dp"
         android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snd"
+        android:layout_marginTop="10dp"
+        android:text="Langitude"
+        android:textSize="20sp"
+        android:id="@+id/langi"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/langi"
+        android:layout_marginTop="10dp"
+        android:text="Longitude"
+        android:textSize="20sp"
+        android:id="@+id/longi"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
 
 </RelativeLayout>

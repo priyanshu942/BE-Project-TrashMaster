@@ -50,9 +50,7 @@ class User_activity_1 : AppCompatActivity() {
                }
                 R.id.acc-> Replace(myAccount(),"My Account")
                 R.id.rew-> Replace(Rewards(),it.title.toString())
-                R.id.coll-> Replace(totalCollection(),"Collection")
                 R.id.supp-> Replace(Support(),it.title.toString())
-                R.id.rpt-> Replace(Report(),it.title.toString())
             }
             true
         }
